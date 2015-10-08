@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wolverine.example.com.btp_farmer.Vendors_Fertilizer">
+
+    <TextView
+        android:id="@+id/idTextVendor2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fertilizer Vendors"
+        android:padding="10dp"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/idTextVendor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTextVendor2"
+        android:text="(Click name to see Detail)"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/idTextVendor"
+        android:layout_marginTop="10dp"
+        android:background="#808080"
+        android:layout_marginBottom="10dp"/>
+    <ListView
+        android:layout_below="@id/view"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lv_vendor_fert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider"
+        android:dividerHeight="5dp"></ListView>
+
+</RelativeLayout>

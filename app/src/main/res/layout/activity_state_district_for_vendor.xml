@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wolverine.example.com.btp_farmer.StateDistrictForVendor"
+    android:background="#FF0099CC">
+
+    <TextView
+        android:id="@+id/idTextVendor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your State and District"
+        android:padding="10dp"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/idTextVendor"
+        android:layout_marginTop="10dp"
+        android:background="#808080"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true">
+        <Spinner
+            android:id="@+id/state"
+            android:entries="@array/states"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="0.5"></Spinner>
+        <Spinner
+            android:id="@+id/district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="0.5"></Spinner>
+    </LinearLayout>
+    <Button
+        android:layout_below="@id/LL"
+        android:id="@+id/btn_findVendors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="Find Vendors"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

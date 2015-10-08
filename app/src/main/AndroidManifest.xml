@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wolverine.example.com.btp_farmer" >
+
+    <!-- GCM connects to Internet Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="wolverine.example.com.btp_farmer.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="wolverine.example.com.btp_farmer.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/main"
+        android:label="Farmer Portal"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Sign in" >
+        </activity>
+        <activity
+            android:name=".Navigationfarmer"
+            android:label="@string/title_activity_navigationfarmer" >
+        </activity>
+        <activity
+            android:name=".TagDescription"
+            android:label="@string/title_activity_tag_description" >
+        </activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".farmerRegis"
+            android:label="Register" >
+        </activity>
+        <activity
+            android:name=".see_answers"
+            android:label="@string/title_activity_see_answers"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+            android:name=".QuestionsAnswer"
+            android:label="@string/title_activity_questions_answer" >
+        </activity>
+        <activity
+            android:name=".MightBeAnsweres"
+            android:label="@string/title_activity_might_be_answeres" >
+        </activity>
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="wolverine.example.com.btp_farmer" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".GCMIntentService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".StateDistrictForVendor"
+            android:label="@string/title_activity_state_district_for_vendor"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".Vendors_Fertilizer"
+            android:label="Dealers">
+        </activity>
+        <activity
+            android:name=".Vendor_Fertilizer_datail"
+            android:label="@string/title_activity_vendor__fertilizer_datail"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:excludeFromRecents="true">
+        </activity>
+    </application>
+
+</manifest>
+

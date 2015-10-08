@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Farmer Portal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigationfarmer">Navigationfarmer</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_tags">Tags</string>
+    <string name="title_activity_tag_description">TagDescription</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_farmer_regis">farmerRegis</string>
+
+    <string-array name="states">
+        <item>Choose from here</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Chandigarh</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string name="title_activity_see_answers">see_answers</string>
+    <string name="title_activity_questions_answer">QuestionsAnswer</string>
+    <string name="title_activity_might_be_answeres">MightBeAnsweres</string>
+    <string name="title_activity_state_district_for_vendor">StateDistrictForVendor</string>
+    <string name="title_activity_vendors__fertilizer">Vendors_Fertilizer</string>
+    <string name="title_activity_vendor__fertilizer_datail">Vendor_Fertilizer_datail</string>
+
+    <string name="change_city">Change city</string>
+
+    <string name="open_weather_maps_app_id">c0efa492960edae191555b66c376165c</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>

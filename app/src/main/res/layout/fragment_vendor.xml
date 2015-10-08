@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0099CC">
+
+    <TextView
+        android:id="@+id/idTextVendor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Vendor from below Stores"
+        android:padding="10dp"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/idTextVendor"
+        android:layout_marginTop="10dp"
+        android:background="#808080"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_fertilizerStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="FertilizerStore"
+                android:background="@drawable/button_default_bg" />
+            <Button
+                android:id="@+id/btn_machineryStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="MachineryStore"
+                android:background="@drawable/button_default_bg" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_pesticideStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text=" PesticideStore "
+                android:background="@drawable/button_default_bg" />
+            <Button
+                android:id="@+id/btn_seedStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="      SeedStore        "
+                android:background="@drawable/button_default_bg" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
