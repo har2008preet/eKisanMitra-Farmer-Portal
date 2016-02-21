@@ -1,4 +1,5 @@
 # eKisanMitra-Farmer-Portal
+This app is part of **e-kisanMitra** and is for farmers.
 Farmer’s portal consists of several characteristics such as the farmer can ask any agricultural question to any scientist from any corner of India. 
 These questions are characterized into many categories like crop, soil, agriculture, irrigation, climate, rain etc. Due to this characterization the respected question is only reached to the scientist of that particular field’s expertise, which result in reduce burden from scientist to answer all the questions arrived from farmer’s Portal.
 
