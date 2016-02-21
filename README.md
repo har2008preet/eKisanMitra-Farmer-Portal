@@ -9,7 +9,7 @@ Also, Farmer can also know about the weather condition of his own district locat
 
 Farmer’s Portal will be very beneficial to the farmers as it focuses on the main issues of obtaining the Knowledge. Our application will provide greater benefits to the farmers so that, for example, they can decide what to cultivate and what to not to increase his total benefit. They can maximize their production after getting the information of weather and best possible seeds available.
 The application provides many benefits to the Indian farmers for their problems related to agriculture such as, they will be notified of the new researches for their benefit, they can be made aware of the government policies, which was before unknown to them, they will be asking their problems to highly qualified persons in agriculture field of India.
-![]({{site.baseurl}}/http://imgur.com/a/EXJBu)
+![]({{http://imgur.com/a/EXJBu}})
 ![]({{site.baseurl}}/http://imgur.com/frP2uJz)
 ![]({{site.baseurl}}/http://imgur.com/Q41EQKB)
 ![]({{site.baseurl}}/http://imgur.com/TKl2DCq)
@@ -19,5 +19,3 @@ The application provides many benefits to the Indian farmers for their problems 
 ![]({{site.baseurl}}/http://imgur.com/p0FQfeP)
 ![]({{site.baseurl}}/http://imgur.com/poelRJf)
 ![]({{site.baseurl}}/http://imgur.com/6Fed9Oa)
-
-
